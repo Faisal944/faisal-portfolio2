@@ -89,7 +89,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("images/animeai.jpg") no-repeat ;
+    background: url("images/animeai1.jpg") no-repeat ;
     background-size: cover;
     background-position: center;
 }
@@ -266,7 +266,7 @@ section {
 }
 
 .home-imgHover:hover {
-    background: black;
+    background: var(--bg-color);
     opacity: .5;
 }
 
@@ -714,7 +714,7 @@ span {
     right: 0;
     width: 100%;
     height: 100%;
-    background: black;
+    background: var(--bg-color);
     z-index: 98;
 }
 
@@ -738,10 +738,6 @@ span {
 
 section:nth-child(odd) .animate.scroll {
     background: var(--second-bg-color);
-}
-
-section:nth-child(even) .animate.scroll {
-    background: var(--bg-color);
 }
 
 .education .education-box .animate.scroll {
@@ -785,9 +781,6 @@ section:nth-child(even) .animate.scroll {
 
 @media (max-width: 768px) {
     .header {
-        background: var(--bg-color);
-    }
-    .header .animate {
         background: var(--bg-color);
     }
     #menu-icon {
@@ -839,7 +832,7 @@ section:nth-child(even) .animate.scroll {
     }
     .home-imgHover {
         pointer-events: none;
-        background: black;
+        background: var(--bg-color);
         opacity: .6;
     }
 }
@@ -847,9 +840,6 @@ section:nth-child(even) .animate.scroll {
 @media (max-width: 520px) {
     html {
         font-size: 50%;
-    }
-    .header .animate {
-        background: var(--bg-color);
     }
     .home-content h1 {
         display: flex;
@@ -865,9 +855,6 @@ section:nth-child(even) .animate.scroll {
 }
 
 @media (max-width: 462px) {
-    .header .animate {
-        background: var(--bg-color);
-    }
     .home-content h1 {
         font-size: 5.2rem
     }
@@ -902,7 +889,7 @@ section:nth-child(even) .animate.scroll {
 }
 
 
-/* KEYFRAMES ANIMATIONS */
+/* KEYFRAMES ANIMATIONS Znoy iyki hirpskv xs Logyor*/
 
 @keyframes homeBgText {
     0%,10%,100% {
